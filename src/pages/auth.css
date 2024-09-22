@@ -1,0 +1,208 @@
+/* General Styles */
+.signup-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+	padding: 0 15px;
+	width: 100%;
+	box-sizing: border-box;
+  }
+  
+  @media (max-width: 480px) {
+	.signup-container {
+	  margin-top: 20px;
+	  padding: 0 10px;
+	}
+  }
+  
+  .title {
+	font-size: 20px;
+	margin-bottom: 8px;
+  }
+  
+  @media (max-width: 480px) {
+	.title {
+	  font-size: 18px;
+	}
+  }
+  
+  .subtitle {
+	color: #666;
+	margin-bottom: 15px;
+	font-size: 14px;
+  }
+  
+  @media (max-width: 480px) {
+	.subtitle {
+	  font-size: 12px;
+	}
+  }
+  
+  .input-container {
+	display: flex;
+	align-items: center;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	padding: 8px;
+	width: 260px;
+	margin-bottom: 15px;
+  }
+  
+  @media (max-width: 480px) {
+	.input-container {
+	  width: 100%;
+	}
+  }
+  
+  .country-flag {
+	width: 30px;
+  }
+  
+  .country-flag img {
+	width: 100%;
+  }
+  
+  .phone-input {
+	border: none;
+	outline: none;
+	width: 100%;
+	padding: 8px;
+	font-size: 14px;
+  }
+  
+  @media (max-width: 480px) {
+	.phone-input {
+	  padding: 6px;
+	  font-size: 12px;
+	}
+  }
+  
+  .request-otp-button {
+	background-color: #5c4033;
+	color: white;
+	border: none;
+	padding: 8px 18px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 14px;
+	width: 280px;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .request-otp-button:hover {
+	background-color: #4b3326;
+  }
+  
+  @media (max-width: 480px) {
+	.request-otp-button {
+	  width: 100%;
+	  padding: 6px;
+	  font-size: 12px;
+	}
+  }
+  
+  .divider {
+	margin: 20px 0;
+	color: #666;
+	font-size: 12px;
+	position: relative;
+	width: 100%;
+	text-align: center;
+  }
+  
+  .divider::before,
+  .divider::after {
+	content: "";
+	display: block;
+	width: 35%;
+	height: 1px;
+	background: #ccc;
+	position: absolute;
+	top: 50%;
+  }
+  
+  .divider::before {
+	left: 5%;
+  }
+  
+  .divider::after {
+	right: 5%;
+  }
+  
+  .login-options {
+	display: flex;
+	gap: 8px;
+	justify-content: center;
+  }
+  
+  @media (max-width: 480px) {
+	.login-options {
+	  flex-direction: column;
+	}
+  }
+  
+  .email-login,
+  .whatsapp-login {
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	padding: 8px 16px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+  }
+  
+  .email-login:hover,
+  .whatsapp-login:hover {
+	background-color: #e0e0e0;
+  }
+  
+  @media (max-width: 480px) {
+	.email-login,
+	.whatsapp-login {
+	  width: 100%;
+	  font-size: 10px;
+	  padding: 6px;
+	}
+  }
+  .google-login {
+	background-color: #4285f4;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+  }
+  
+  .google-login:hover {
+	background-color: #357ae8;
+  }
+  
+  .google-login .fab {
+	font-size: 16px;
+  }
+  
+  @media (max-width: 480px) {
+	.google-login {
+	  width: 100%;
+	  padding: 8px;
+	  font-size: 12px;
+	}
+  
+	.google-login .fab {
+	  font-size: 14px;
+	}
+  }
+  
+  
+  
